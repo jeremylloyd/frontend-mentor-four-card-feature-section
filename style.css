@@ -1,0 +1,29 @@
+:root {
+  --theme-red: hsl(0, 78%, 62%);
+  --theme-cyan: hsl(180, 62%, 55%);
+  --theme-orange: hsl(34, 97%, 64%);
+  --theme-blue: hsl(212, 86%, 64%);
+  --theme-very-dark-blue: hsl(234, 12%, 34%);
+  --theme-greyish-blue: hsl(229, 6%, 66%);
+  --theme-very-light-grey: hsl(0, 0%, 98%);
+}
+
+*, *::after, *::before {
+  margin: 0px;
+  font-family: 'Poppins';
+  color: var(--theme-greyish-blue);
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
