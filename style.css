@@ -14,7 +14,7 @@
   color: var(--theme-greyish-blue);
   text-decoration: none;
   box-sizing: border-box;
-  /* border: 1px dashed black; */
+  border: 1px dashed black;
 }
 
 h1 {
@@ -52,6 +52,7 @@ p {
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -87,4 +88,32 @@ article p {
 article svg {
   align-self: flex-end;
   margin-top: auto;
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 36px;
+    line-height: 1.45em;
+  }
+
+  body {
+    width: 900px;
+  }
+
+  header {
+    width: 580px;
+    margin: 40px 0px 30px;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+
+  article {
+    width: 350px;
+    height: 250px;
+    margin: 30px 15px;
+  }
 }
