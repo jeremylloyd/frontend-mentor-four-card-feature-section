@@ -6,8 +6,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Screenshots
 
-![](./images/screenshot_desktop.png)
-![](./images/screenshot_mobile.png)
+![](./images/screenshot_desktop.PNG)
+![](./images/screenshot_mobile.PNG)
 
 ### Links
 
