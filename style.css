@@ -20,12 +20,20 @@
 h1 {
   font-size: 24px;
   font-weight: 200;
-  color: var(--theme-very-dark-blue)
+  color: var(--theme-very-dark-blue);
+  margin: 0px 0px 20px;
 }
 
 h1 strong {
   color: var(--theme-very-dark-blue);
   font-weight: 600;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--theme-very-dark-blue);
+  margin-bottom: 5px;
 }
 
 p {
@@ -47,10 +55,29 @@ body {
   width: 375px;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px;
+  padding: 30px 30px 0px 30px;
   background-color: var(--theme-very-light-grey);
 }
 
 header {
   text-align: center;
+  margin: 50px 0px;
+}
+
+main {
+  margin: 0px 0px 75px 0px;
+}
+
+article {
+  height: 225px;
+  padding: 20px 30px;
+  border-top: solid 4px;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0px 16px 32px -16px hsl(212, 39%, 72%);
+  margin-top: 20px;
+}
+
+article p {
+  font-size: 13px;
 }
